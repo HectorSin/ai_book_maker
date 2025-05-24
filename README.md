@@ -14,15 +14,8 @@
 
 1. Conda 환경 생성 및 활성화:
 ```bash
-conda create -n ai_book python=3.10
+conda env create -f environment.yml
 conda activate ai_book
-```
-
-2. 필요한 패키지 설치:
-```bash
-pip install langchain==0.1.0 langchain-community==0.0.20 langchain-core==0.1.21 langchain-openai==0.0.8 langsmith==0.0.83
-pip install openai==1.3.0
-pip install pillow
 ```
 
 ## 프로젝트 구조
